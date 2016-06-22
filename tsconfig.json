@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node"
+    },
+    "filesGlob": [
+        "index.ts",
+        "src/**/*.ts",
+        "!src/**/*.d.ts",
+        "node_modules/typescript/lib/lib.es6.d.ts"
+    ],
+    "files": [
+        "index.ts",
+        "src/directives/html-outlet/html-outlet.spec.ts",
+        "src/directives/html-outlet/html-outlet.ts",
+        "src/directives/html-outlet/index.ts",
+        "src/directives/html-outlet/provider.ts",
+        "src/directives/index.ts",
+        "src/index.ts",
+        "src/utils/dynamic-component-factory.ts",
+        "node_modules/typescript/lib/lib.es6.d.ts"
+    ]
+}

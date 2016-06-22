@@ -1,0 +1,45 @@
+{
+  "devDependencies": {
+    "@angular/common": "^2.0.0-rc.3",
+    "@angular/compiler": "^2.0.0-rc.3",
+    "@angular/core": "^2.0.0-rc.3",
+    "@angular/platform-browser": "^2.0.0-rc.3",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.3",
+    "core-js": "^2.4.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "rimraf": "^2.5.2",
+    "rxjs": "^5.0.0-beta.6",
+    "systemjs": "^0.19.31",
+    "tsconfig-cli": "^2.0.0",
+    "typescript": "^1.8.10",
+    "zone.js": "^0.6.12"
+  },
+  "name": "@laco0416/angular2-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "clean": "rimraf built/",
+    "tsconfig": "tsconfig -u",
+    "prebuild": "npm run clean && npm run tsconfig",
+    "build": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "pretest": "npm run build",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laco0416/angular2-commons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laco0416/angular2-commons/issues"
+  },
+  "homepage": "https://github.com/laco0416/angular2-commons#readme",
+  "description": ""
+}
